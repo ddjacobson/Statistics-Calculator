@@ -37,9 +37,6 @@ if problem == "Confidence Interval":
             "Check the order you entered your total number and successful trials. The amount of successful trials must be lower than the total trials."
             )
 
-
-
-
 elif problem == "Hypothesis Test":
     sample_mean = input("What is the sample mean? ")
     pop_mean = input("What is the population mean?")
@@ -64,9 +61,5 @@ elif problem == "Hypothesis Test":
         else:
             print("Since p " + "(" + str(tailedp) + ")" + "is less than the significance level, we will reject the "
                                                           "null hypothesis.")
-
-
-
-
 else:
     print("I am sorry, this type of problem is not yet supported.")
